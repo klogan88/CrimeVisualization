@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <title>Crime Visualization</title>
     <script src="./vendor/angular/angular.min.js"></script>
-    <script src="./vendor/openlayers/ol.min.js"></script>
+    <script src="./vendor/leaflet/leaflet.min.js"></script>
     <script src="./app/app.js"></script>
     <script src="./app/components/graph-visualization.directive.js"></script>
-    <link rel="stylesheet" type="text/css" href="./vendor/openlayers/ol.css">
+    <script src="./app/components/vis-description.directive.js"></script>
+    <link rel="stylesheet" type="text/css" href="./vendor/leaflet/leaflet.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/crime-map.css">
+    <link rel="stylesheet" type="text/css" href="./css/vis-description.css">
 </head>
 <body ng-app="crimeApp">
-    <graph-visualization></graph-visualization>
+    <div class="Content">
+        <vis-description></vis-description>
+        <graph-visualization></graph-visualization>
+    </div>
 </body>
 </html>

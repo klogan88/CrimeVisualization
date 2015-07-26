@@ -1,2 +1,7 @@
-<div>This will show a graph!</div>
-<div id="map" class="map" tabindex="0"></div>
+<div class="MapVis">
+    <div id="map" class="MapVis-map"></div>
+    <div ng-show="vm.isLoading" class="MapVis-loadingGifContainer">
+        <img src="../images/loading.gif" class="MapVis-loadingGif">
+    </div>
+</div>
+
