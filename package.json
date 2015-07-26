@@ -1,0 +1,21 @@
+{
+  "name": "CrimeVisualization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.7.12",
+    "gulp": "^3.9.0",
+    "node-libs-browser": "^0.5.2",
+    "raw-loader": "^0.5.1",
+    "run-sequence": "^1.1.1",
+    "webpack": "^1.9.12",
+    "webpack-stream": "^2.0.0"
+  }
+}
