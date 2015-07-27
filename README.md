@@ -3,6 +3,8 @@ This visualization uses the Seattle crime dataset to display a map which marks c
 
 Each of the markers is clickable, so you can see a little bit more detail on each point.
 
+There is a responsive breakpoint at 800px so that it fits smaller displays as well, such as tablets or mobiles.
+
 The app is running on http://klogan88.github.io
 
 # Known IE9 issues
